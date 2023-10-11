@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(234, 215, 187);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="home">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>100</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 8pt &quot;Montserrat SemiBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Home&gt;Challan From No:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>100</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="chForm">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>140</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Challan Form No:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="district">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>170</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>District</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="district_2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>190</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Lahore</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Multan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sahiwal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Faisalabad</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="tehsil">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>170</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tehsil</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="tehsil_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>190</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Model Town</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shalimar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ravi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lahore Cantt </string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="stampType">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>220</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stamp Paper Type</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="paperType">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>250</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Select Stamp Paper Type</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="deed">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>230</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Deed Name</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="deedType">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>250</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Select Deed Name</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="AgentInfo">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>290</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agent Information</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>320</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="agName">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>320</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agent Name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="agCNIC">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>320</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agent CNIC</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="CNIC">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>320</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="agContact">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>350</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agent Contact</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="contact">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>350</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="agCNIC_2">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>350</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agent Email</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="agEmail">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>350</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="phoneCall.png"/>
+ </resources>
+ <connections/>
+</ui>
